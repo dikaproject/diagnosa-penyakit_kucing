@@ -1,0 +1,71 @@
+PENYAKIT:
+P001 Cacingan ( Helminthiasis )
+P002 Kudis ( Skabies )
+P003 Pijal, kutu, caplak ( Ektoparasit )
+P004 Koksidiosis
+P005 Radang Tenggorokan ( Feline Viral Rhinotracheitis )
+P006 Pernafasan ( Feline Caliviral disease )
+P007 Kucing jahat ( Felice Panleukopenia )
+P008 Kutu telinga ( Earmite )
+
+GEJALA:
+G01  Tidak mau makan 
+G02 Batuk 
+G03 Bulu rontok 
+G04 Dehidrasi 
+G05 Kurus 
+G06 Diare disertai darah
+G07 Gatal-gatal
+G08 Anemia (gusi putih)
+G09 Keluar air liur
+G10 Diare disertai cacing
+G11 Demam
+G12 Dipegang telinga kesakitan
+G13 Flu
+G14 Bersin-bersin
+G15 Jaringan kulit rontok
+G16 Bengkak mata
+G17 Keluar air mata (epifora)
+G18 Kemerahan pada kulit
+G19 Kerusakan selaput lendir mata
+G20 Berbau busuk pada telinga
+G21 Leleran hidung keruh (kental seperti nanah)
+G22 Lemah
+G23 Lesu
+G24 Luka keropeng
+G25 Luka pada mulut
+G26 Luka pada telinga
+G27 Menggelengkan kepala
+G28 Muntah
+G29 Muntah diserta cacing
+G30 Nafas lewat mulut
+G31 Saluran nafas tertutup lendir (ingusan)
+G32 Sesak nafas
+G33 Telinga selalu kotor
+G34 Bau mulut busuk
+G35 Tidak tenang
+
+RULE:
+P001 Cacingan ( Helminthiasis )
+G01 - G02 - G05 - G06 - G10 - G29
+
+P002 Kudis ( Skabies )
+G01 - G03 - G07 - G15 - G24 - G26
+
+P003 Pijal, kutu, caplak ( Ektoparasit )
+G03 - G04 - G05 - G07 - G18 - G35
+
+P004 Koksidiosis
+G04 - G05 - G06 - G08 - G22
+
+P005 Radang Tenggorokan ( Feline Viral Rhinotracheitis )
+G08 - G09 - G13 - G14 - G16 - G17 - G19 - G21 - G30 - G32
+
+P006 Pernafasan ( Feline Caliviral disease )
+G01 - G08 - G09 - G23 - G25 - G31
+
+P007 Kucing jahat ( Felice Panleukopenia )
+G01 - G06 - G08 - G11 - G23
+
+P008 Kutu telinga ( Earmite )
+G12 - G20 - G27 - G28 - G33
