@@ -46,12 +46,12 @@ $totalKucingTidakTerdiagnosa = getCount('riwayat', 'id_penyakit IS NULL');
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Home - Append Bootstrap Temlate</title>
+  <title>Home - Diagnosis kucing</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href=".../assets/images/logo.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -133,7 +133,7 @@ $totalKucingTidakTerdiagnosa = getCount('riwayat', 'id_penyakit IS NULL');
             <h3>About Us</h3>
             <h2>Website Diagnosa Kucing</h2>
             <p>Website ini bertujuan untuk membantu para pemilik kucing yang sakit dan ingin mendapatkan diagnosis. Diagnosis ini tidak dapat dikatakan 100% akurat, tetapi kami mendapat sumber ini dari laporan hasil pakar, sehingga kami dapat memberikan kepercayaan lebih dengan website ini.</p>
-            <a href="#" class="read-more"><span>Diagnosa Sekarang</span><i class="bi bi-arrow-right"></i></a>
+            <a href="../index.php" class="read-more"><span>Diagnosa Sekarang</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
           <div class="col-xl-7">
@@ -232,7 +232,7 @@ $totalKucingTidakTerdiagnosa = getCount('riwayat', 'id_penyakit IS NULL');
             <p>
               Fitur ini berfungsi untuk menambahkan penyakit, gejala dan rules agar pakar dokter bisa mudah untuk menggunakan website ini.
             </p>
-            <a href="#" class="btn btn-get-started">Login Sekarang</a>
+            <a href="../index.php" class="btn btn-get-started">Login Sekarang</a>
           </div>
           <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
             <div class="image-stack">
@@ -254,7 +254,7 @@ $totalKucingTidakTerdiagnosa = getCount('riwayat', 'id_penyakit IS NULL');
               <li><i class="bi bi-check"></i><span> Admin user bisa menambahkan dokter dan user tetapi tidak bisa menambahkan penyakit, gejala dan rules.</span></li>
               <li><i class="bi bi-check"></i> <span>user hanya bisa mendiagnosis dan tidak dapat menjelajah lebih dalam di admin page</span>.</li>
             </ul>
-            <a href="#" class="btn btn-get-started align-self-start">Registrasi sekarang</a>
+            <a href="../formregister" class="btn btn-get-started align-self-start">Registrasi sekarang</a>
           </div>
         </div><!-- Features Item -->
 
@@ -364,7 +364,7 @@ $totalKucingTidakTerdiagnosa = getCount('riwayat', 'id_penyakit IS NULL');
             <div class="text-center">
               <h3>Diagnosa Sekarang</h3>
               <p>Gratis diagnosa dilahkan login di bawah ini, belum mempunyai akun bisa registrasi.</p>
-              <a class="cta-btn" href="#">Diagnosa Sekarang!!</a>
+              <a class="cta-btn" href="../index.php">Diagnosa Sekarang!!</a>
             </div>
           </div>
         </div>
@@ -477,7 +477,7 @@ $totalKucingTidakTerdiagnosa = getCount('riwayat', 'id_penyakit IS NULL');
         <a href="index.php" title="Sistem Pakar Forward Chaining" alt="Sistem Pakar Forward Chaining" class="navbar-brand">
 				<img alt="Kincai Media" src="../assets/images/logo.png" height="60px" width="60px">
 	</a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Website diagnosis untuk penyakit kucing.</p>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">

@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     </label>
                                 </div>
                                 <div class="w-50 text-md-right">
-                                    <a href="formlogin.php" style="color: #fff">Login Akun (jika punya)</a>
+                                    <a href="index.php" style="color: #fff">Login Akun (jika punya)</a>
                                 </div>
                             </div>
                         </form>
